@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionPrinter.Tests", "ExceptionPrinter.Tests\ExceptionPrinter.Tests.csproj", "{B2138B66-4A62-4D7D-A114-B28CC70D2E1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D1557F43-3984-495B-8D05-8C588ED229F8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionPrinter", "ExceptionPrinter\ExceptionPrinter.csproj", "{757C2A0E-800D-4E90-8617-EB3CC8C1EAD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2138B66-4A62-4D7D-A114-B28CC70D2E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2138B66-4A62-4D7D-A114-B28CC70D2E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2138B66-4A62-4D7D-A114-B28CC70D2E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2138B66-4A62-4D7D-A114-B28CC70D2E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757C2A0E-800D-4E90-8617-EB3CC8C1EAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757C2A0E-800D-4E90-8617-EB3CC8C1EAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757C2A0E-800D-4E90-8617-EB3CC8C1EAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757C2A0E-800D-4E90-8617-EB3CC8C1EAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
